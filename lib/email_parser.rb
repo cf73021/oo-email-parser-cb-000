@@ -8,7 +8,7 @@ class EmailParser
   def initialize(emails)
   end
 
-  def self.parse(emails)
+  def self.parse
     emails.split(", ")
   end
 end
