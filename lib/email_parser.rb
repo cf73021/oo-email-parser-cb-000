@@ -6,7 +6,7 @@ class EmailParser
   attr_accessor :emails
   @@List = []
   def self.parse(emails)
-    @@List = emails
+    @@List = emails.split(",")
   end
 
 end
