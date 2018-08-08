@@ -4,7 +4,7 @@
 # or whitespace (' ').
 class EmailParser
   attr_accessor :emails
-
+  @@email_array
   def self.parse
     @emails = emails
     @emails.split(", ")
