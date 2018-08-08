@@ -4,14 +4,8 @@
 # or whitespace (' ').
 class EmailParser
 
-  @@email_array = []
-
   def initialize(emails)
   end
 
-  def self.parse
-    @emails = emails
-    @@email_array = @emails.split(", ")
-  end
 
 end
