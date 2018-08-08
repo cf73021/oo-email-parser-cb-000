@@ -7,7 +7,7 @@ class EmailParser
 
   def self.parse
     @emails = emails
-    @emails.split(",")
+    @emails.split(", ")
 
   end
 
