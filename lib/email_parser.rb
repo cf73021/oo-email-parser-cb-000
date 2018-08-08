@@ -10,7 +10,6 @@ class EmailParser
   end
 
   def parse
-    emailparse = self.new
-    emailparse.emails.split(", ")
+    @emails.split(", ")
   end
 end
