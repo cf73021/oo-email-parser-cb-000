@@ -4,10 +4,11 @@
 # or whitespace (' ').
 class EmailParser
   attr_accessor :emails
-  @@list = []
+
   def self.parse(emails)
-    @@list = emails.split(",")
-    @@list
+    @emails = emails
+    @emails.split(",")
+
   end
 
 end
